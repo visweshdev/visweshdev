@@ -10,7 +10,7 @@
 </p>
 
 Hey, I'm Viswesh 👋 CS student in Hyderabad. I build AI agents and RAG things, watch way too much F1, and take photos when the code won't compile.
-The serious version lives on **[my portfolio](<my site URL>)**. This page is for the pit lane.
+The serious version lives on **[my portfolio](https://visweshkesarla.vercel.app/)**. This page is for the pit lane.
 
 ```python
 viswesh = {
@@ -35,23 +35,26 @@ viswesh = {
   <img src="./terminal.svg" width="85%" alt="git log full of 'final fix' commits, then: Box box, we have a merge conflict.">
 </p>
 
-## 🧠 Two Hard Things
+## 🧠 Best Practices™
 
-| ❌ | ✅ |
-|---|---|
-| Reading the docs | Asking an LLM to read the docs |
-| Writing tests | Writing `# TODO: tests` |
-| Naming variables | `data`, `data2`, `data_final` |
-| Fixing the bug | Renaming it to a feature |
+<div align="center">
+<table>
+  <tr><th>❌ What I should do</th><th>✅ What I actually do</th></tr>
+  <tr><td>Read the docs</td><td>Ask an LLM to read the docs</td></tr>
+  <tr><td>Write tests</td><td>Write <code># TODO: tests</code></td></tr>
+  <tr><td>Name variables properly</td><td><code>data</code>, <code>data2</code>, <code>data_final</code></td></tr>
+  <tr><td>Fix the bug</td><td>Rename it to a feature</td></tr>
+</table>
+</div>
 
 <p align="center">
   <img src="https://readme-jokes.vercel.app/api?hideBorder&bgColor=%230b0e14&textColor=%23c9d1d9&aColor=%23e8a33d&qColor=%23e8a33d" alt="Random dev joke">
 </p>
 
 <p align="center">
-  <a href="<my site URL>"><img src="https://img.shields.io/badge/Portfolio-161b22?style=for-the-badge&logo=googlechrome&logoColor=e8a33d" alt="Portfolio"></a>
-  <a href="<link>"><img src="https://img.shields.io/badge/LinkedIn-161b22?style=for-the-badge&logo=linkedin&logoColor=e8a33d" alt="LinkedIn"></a>
-  <a href="mailto:visweshkesarla@gmail.com"><img src="https://img.shields.io/badge/Email-161b22?style=for-the-badge&logo=gmail&logoColor=e8a33d" alt="Email"></a>
+  <a href="https://visweshkesarla.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-161b22?style=for-the-badge&labelColor=161b22&color=e8a33d" alt="Portfolio"></a>
+  <a href="https://www.linkedin.com/in/visweshkesarla"><img src="https://img.shields.io/badge/LinkedIn-161b22?style=for-the-badge&labelColor=161b22&color=e8a33d" alt="LinkedIn"></a>
+  <a href="mailto:visweshkesarla@gmail.com"><img src="https://img.shields.io/badge/Email-161b22?style=for-the-badge&labelColor=161b22&color=e8a33d" alt="Email"></a>
 </p>
 
 <p align="center">
