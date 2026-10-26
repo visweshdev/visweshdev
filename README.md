@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/header.svg" width="100%" alt="Viswesh Kesarla · AI agents · RAG · backend systems">
+  <img src="./header.svg" width="100%" alt="Viswesh Kesarla · AI agents · RAG · backend systems">
 </p>
 
 <p align="center">
@@ -32,7 +32,7 @@ viswesh = {
 > **"Bwoah."** — my answer to "how long will this take?"
 
 <p align="center">
-  <img src="./assets/terminal.svg" width="85%" alt="git log full of 'final fix' commits, then: Box box, we have a merge conflict.">
+  <img src="./terminal.svg" width="85%" alt="git log full of 'final fix' commits, then: Box box, we have a merge conflict.">
 </p>
 
 ## 🧠 Two Hard Things
@@ -55,7 +55,7 @@ viswesh = {
 </p>
 
 <p align="center">
-  <img src="./assets/footer.svg" width="100%" alt="Chequered flag">
+  <img src="./footer.svg" width="100%" alt="Chequered flag">
   <br>
   <sub>99 little bugs in the code. Patch one down, push it around… 127 little bugs in the code.</sub>
 </p>
