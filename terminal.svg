@@ -26,6 +26,6 @@
 <clipPath id="c6"><rect x="40" y="230" width="0" height="26"><animate attributeName="width" from="0" to="304" begin="2.75s" dur="1.08s" fill="freeze"/></rect></clipPath>
 <text x="40" y="248" fill="#28c840" opacity="0">➜<set attributeName="opacity" to="1" begin="2.55s" fill="freeze"/></text>
 <text x="64" y="248" fill="#e6edf3" clip-path="url(#c6)"><tspan fill="#7ee0ff">~</tspan> radio --to race-engineer</text>
-<text x="40" y="275" fill="#ffd58a" font-style="italic" opacity="0"><tspan fill='#ff2b2b'>📻 </tspan>Box box, we have a merge conflict.<set attributeName="opacity" to="1" begin="4.18s" fill="freeze"/></text>
+<text x="40" y="275" fill="#ffd58a" font-style="italic" opacity="0"><tspan fill='#ff2b2b'>radio: </tspan>Box box, we have a merge conflict.<set attributeName="opacity" to="1" begin="4.18s" fill="freeze"/></text>
 <text class="blink" x="40" y="306" fill="#e8a33d" opacity="0">▌<set attributeName="opacity" to="1" begin="4.40s" fill="freeze"/></text>
 </svg>

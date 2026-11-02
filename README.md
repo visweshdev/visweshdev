@@ -1,64 +1,21 @@
 <p align="center">
-  <img src="./header.svg" width="100%" alt="Viswesh Kesarla · AI agents · RAG · backend systems">
+  <img src="./header.svg" width="100%" alt="Hey, I'm Viswesh. 3rd year CS student at Woxsen, Hyderabad, who builds AI agents, RAG pipelines and backend systems.">
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/bugs-features-e8a33d?style=flat-square&labelColor=161b22" alt="bugs: features">
-  <img src="https://img.shields.io/badge/sleep-404-e8a33d?style=flat-square&labelColor=161b22" alt="sleep: 404">
-  <img src="https://img.shields.io/badge/coffee-%E2%88%9E-e8a33d?style=flat-square&labelColor=161b22" alt="coffee: infinite">
-  <img src="https://img.shields.io/badge/tyres-softs-e8a33d?style=flat-square&labelColor=161b22" alt="tyres: softs">
-</p>
-
-Hey, I'm Viswesh 👋 CS student in Hyderabad. I build AI agents and RAG things, watch way too much F1, and take photos when the code won't compile.
-The serious version lives on **[my portfolio](https://visweshkesarla.vercel.app/)**. This page is for the pit lane.
-
-```python
-viswesh = {
-    "currently": "teaching agents to recover from failed tool calls",
-    "debugging_method": "print('here')",
-    "favourite_line": "it works on my machine",
-    "fix": "then we'll ship your machine 🐳",
-}
-```
-
-## 📻 Team Radio
-
-> **"Leave me alone, I know what I'm doing."** — me, ignoring the linter
->
-> **"GP2 engine! GP2!"** — my laptop the moment Docker starts
->
-> **"We are checking."** — me when the reviewer asks why the tests are skipped
->
-> **"Bwoah."** — my answer to "how long will this take?"
-
-<p align="center">
-  <img src="./terminal.svg" width="85%" alt="git log full of 'final fix' commits, then: Box box, we have a merge conflict.">
-</p>
-
-## 🧠 Best Practices™
-
-<div align="center">
-<table>
-  <tr><th>❌ What I should do</th><th>✅ What I actually do</th></tr>
-  <tr><td>Read the docs</td><td>Ask an LLM to read the docs</td></tr>
-  <tr><td>Write tests</td><td>Write <code># TODO: tests</code></td></tr>
-  <tr><td>Name variables properly</td><td><code>data</code>, <code>data2</code>, <code>data_final</code></td></tr>
-  <tr><td>Fix the bug</td><td>Rename it to a feature</td></tr>
-</table>
-</div>
-
-<p align="center">
-  <img src="https://readme-jokes.vercel.app/api?hideBorder&bgColor=%230b0e14&textColor=%23c9d1d9&aColor=%23e8a33d&qColor=%23e8a33d" alt="Random dev joke">
+  <img src="./about.svg" width="100%" alt="I shoot race days, campus, travel and way too many skies. I rebuilt six arcade games from scratch just to see if I could. And I run on coffee.">
 </p>
 
 <p align="center">
-  <a href="https://visweshkesarla.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-161b22?style=for-the-badge&labelColor=161b22&color=e8a33d" alt="Portfolio"></a>
-  <a href="https://www.linkedin.com/in/visweshkesarla"><img src="https://img.shields.io/badge/LinkedIn-161b22?style=for-the-badge&labelColor=161b22&color=e8a33d" alt="LinkedIn"></a>
-  <a href="mailto:visweshkesarla@gmail.com"><img src="https://img.shields.io/badge/Email-161b22?style=for-the-badge&labelColor=161b22&color=e8a33d" alt="Email"></a>
+  <img src="./terminal.svg" width="80%" alt="git log full of 'final fix' commits, then: Box box, we have a merge conflict.">
 </p>
 
 <p align="center">
-  <img src="./footer.svg" width="100%" alt="Chequered flag">
-  <br>
-  <sub>99 little bugs in the code. Patch one down, push it around… 127 little bugs in the code.</sub>
+  <a href="https://visweshkesarla.vercel.app/"><img src="./btn-portfolio.svg" height="56" alt="my portfolio"></a>
+  <a href="https://www.linkedin.com/in/visweshkesarla"><img src="./btn-linkedin.svg" height="56" alt="linkedin"></a>
+  <a href="mailto:visweshkesarla@gmail.com"><img src="./btn-email.svg" height="56" alt="say hi (email)"></a>
+</p>
+
+<p align="center">
+  <img src="./footer.svg" width="100%" alt="Thanks for scrolling all the way down. Say hi anytime. Signed, Viswesh.">
 </p>
