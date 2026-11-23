@@ -1,31 +1,51 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 342" width="900" height="342" role="img" aria-label="Terminal showing commits named final fix, and the radio message: box box, we have a merge conflict">
-<style>text{font-family:'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;font-size:17px}@keyframes blink{50%{opacity:0}}.blink{animation:blink 1s steps(1) infinite}@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
-<defs><linearGradient id="bar" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1b212c"/><stop offset="1" stop-color="#141922"/></linearGradient>
-<filter id="sh" x="-10%" y="-10%" width="120%" height="140%"><feGaussianBlur stdDeviation="10"/></filter></defs>
-<rect x="30" y="34" width="840" height="290" rx="14" fill="#000" opacity=".6" filter="url(#sh)"/>
-<rect x="26" y="18" width="848" height="302" rx="14" fill="#181008"/>
-<rect x="25" y="17" width="848" height="302" rx="14" fill="#1b1208"/>
-<rect x="24" y="16" width="848" height="302" rx="14" fill="#1e1408"/>
-<rect x="23" y="15" width="848" height="302" rx="14" fill="#211608"/>
-<rect x="22" y="14" width="848" height="302" rx="14" fill="#241808"/>
-<rect x="21" y="13" width="848" height="302" rx="14" fill="#271a08"/>
-<rect x="20" y="12" width="848" height="302" rx="14" fill="#0d1117" stroke="#e8a33d" stroke-opacity=".55"/>
-<path d="M20 26 a14 14 0 0 1 14 -14 h820 a14 14 0 0 1 14 14 v20 h-848 z" fill="url(#bar)"/>
-<circle cx="44" cy="30" r="6.5" fill="#ff5f57"/>
-<circle cx="66" cy="30" r="6.5" fill="#febc2e"/>
-<circle cx="88" cy="30" r="6.5" fill="#28c840"/>
-<text x="434.0" y="35" text-anchor="middle" font-size="13px" fill="#7d8697">pit-wall — zsh</text>
-<clipPath id="c0"><rect x="40" y="60" width="0" height="26"><animate attributeName="width" from="0" to="260" begin="0.40s" dur="0.90s" fill="freeze"/></rect></clipPath>
-<text x="40" y="78" fill="#28c840" opacity="0">➜<set attributeName="opacity" to="1" begin="0.20s" fill="freeze"/></text>
-<text x="64" y="78" fill="#e6edf3" clip-path="url(#c0)"><tspan fill="#7ee0ff">~</tspan> git log --oneline -5</text>
-<text x="40" y="105" fill="#c9d1d9" opacity="0"><tspan fill='#e8a33d'>a1f9c2e</tspan> final fix<set attributeName="opacity" to="1" begin="1.65s" fill="freeze"/></text>
-<text x="40" y="132" fill="#c9d1d9" opacity="0"><tspan fill='#e8a33d'>b7d3e01</tspan> final fix (real)<set attributeName="opacity" to="1" begin="1.87s" fill="freeze"/></text>
-<text x="40" y="159" fill="#c9d1d9" opacity="0"><tspan fill='#e8a33d'>c4e8a77</tspan> final_final_fix_v2<set attributeName="opacity" to="1" begin="2.09s" fill="freeze"/></text>
-<text x="40" y="186" fill="#c9d1d9" opacity="0"><tspan fill='#e8a33d'>d2b6f19</tspan> ok THIS is the final fix<set attributeName="opacity" to="1" begin="2.31s" fill="freeze"/></text>
-<text x="40" y="213" fill="#c9d1d9" opacity="0"><tspan fill='#e8a33d'>e9c0a35</tspan> revert "ok THIS is the final fix"<set attributeName="opacity" to="1" begin="2.53s" fill="freeze"/></text>
-<clipPath id="c6"><rect x="40" y="230" width="0" height="26"><animate attributeName="width" from="0" to="304" begin="2.75s" dur="1.08s" fill="freeze"/></rect></clipPath>
-<text x="40" y="248" fill="#28c840" opacity="0">➜<set attributeName="opacity" to="1" begin="2.55s" fill="freeze"/></text>
-<text x="64" y="248" fill="#e6edf3" clip-path="url(#c6)"><tspan fill="#7ee0ff">~</tspan> radio --to race-engineer</text>
-<text x="40" y="275" fill="#ffd58a" font-style="italic" opacity="0"><tspan fill='#ff2b2b'>radio: </tspan>Box box, we have a merge conflict.<set attributeName="opacity" to="1" begin="4.18s" fill="freeze"/></text>
-<text class="blink" x="40" y="306" fill="#e8a33d" opacity="0">▌<set attributeName="opacity" to="1" begin="4.40s" fill="freeze"/></text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 768 321" width="768" height="321" role="img" aria-labelledby="title">
+  <title id="title">Pit-wall terminal: Box box, we have a merge conflict.</title>
+  <style>
+    text { font: 22px Consolas, "DejaVu Sans Mono", Menlo, monospace; fill: #f3ede0; }
+    .title { font-size: 16px; fill: #c4cdd1; }
+    .prompt, .radio { fill: #e7b778; }
+    .hash { fill: #b8c7ca; }
+
+    /* Covenant's line reveal, with a shared hold before the next pass. */
+    .line { animation-duration: 14s; animation-timing-function: linear; animation-iteration-count: infinite; }
+    .command { animation-name: command; }
+    .commit-one { animation-name: commit-one; }
+    .commit-two { animation-name: commit-two; }
+    .commit-three { animation-name: commit-three; }
+    .commit-four { animation-name: commit-four; }
+    .commit-five { animation-name: commit-five; }
+    .call { animation-name: call; }
+    .reply { animation-name: reply; }
+    @keyframes command { 0%, 2% { opacity: 0; transform: translateY(4px); } 4%, 95% { opacity: 1; transform: none; } 98%, 100% { opacity: 0; } }
+    @keyframes commit-one { 0%, 5% { opacity: 0; transform: translateY(4px); } 7%, 95% { opacity: 1; transform: none; } 98%, 100% { opacity: 0; } }
+    @keyframes commit-two { 0%, 7% { opacity: 0; transform: translateY(4px); } 9%, 95% { opacity: 1; transform: none; } 98%, 100% { opacity: 0; } }
+    @keyframes commit-three { 0%, 9% { opacity: 0; transform: translateY(4px); } 11%, 95% { opacity: 1; transform: none; } 98%, 100% { opacity: 0; } }
+    @keyframes commit-four { 0%, 11% { opacity: 0; transform: translateY(4px); } 13%, 95% { opacity: 1; transform: none; } 98%, 100% { opacity: 0; } }
+    @keyframes commit-five { 0%, 13% { opacity: 0; transform: translateY(4px); } 15%, 95% { opacity: 1; transform: none; } 98%, 100% { opacity: 0; } }
+    @keyframes call { 0%, 18% { opacity: 0; transform: translateY(4px); } 20%, 95% { opacity: 1; transform: none; } 98%, 100% { opacity: 0; } }
+    @keyframes reply { 0%, 27% { opacity: 0; transform: translateY(4px); } 29%, 95% { opacity: 1; transform: none; } 98%, 100% { opacity: 0; } }
+    @media (max-width: 450px) {
+      text { font-size: 28px; }
+      .title { font-size: 20px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .line { animation: none; }
+    }
+  </style>
+  <rect width="768" height="321" rx="12" fill="#171b1e"/>
+  <path d="M12 0h744a12 12 0 0 1 12 12v32H0V12A12 12 0 0 1 12 0Z" fill="#252c30"/>
+  <path d="M0 44.5h768" stroke="#3d474d"/>
+  <rect x=".5" y=".5" width="767" height="320" rx="11.5" fill="none" stroke="#3d474d"/>
+  <circle cx="24" cy="23" r="5" fill="#e7b778"/>
+  <circle cx="42" cy="23" r="5" fill="#a6a199"/>
+  <circle cx="60" cy="23" r="5" fill="#707c80"/>
+  <text x="384" y="29" class="title" text-anchor="middle">pit-wall — zsh</text>
+  <text x="29" y="81" class="line command" xml:space="preserve"><tspan class="prompt">➜ </tspan>~ git log --oneline -5</text>
+  <text x="29" y="108" class="line commit-one" xml:space="preserve"><tspan class="hash">a1f9c2e</tspan> final fix</text>
+  <text x="29" y="135" class="line commit-two" xml:space="preserve"><tspan class="hash">b7d3e01</tspan> final fix (real)</text>
+  <text x="29" y="162" class="line commit-three" xml:space="preserve"><tspan class="hash">c4e8a77</tspan> final_final_fix_v2</text>
+  <text x="29" y="189" class="line commit-four" xml:space="preserve"><tspan class="hash">d2b6f19</tspan> ok THIS is the final fix</text>
+  <text x="29" y="216" class="line commit-five" xml:space="preserve"><tspan class="hash">e9c0a35</tspan> revert "ok THIS is the final fix"</text>
+  <text x="29" y="258" class="line call" xml:space="preserve"><tspan class="prompt">➜ </tspan>~ radio --to race-engineer</text>
+  <text x="29" y="287" class="line reply" xml:space="preserve"><tspan class="radio">radio: </tspan>Box box, we have a merge conflict.</text>
 </svg>
