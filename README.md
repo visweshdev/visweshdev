@@ -11,7 +11,7 @@ I’m a computer science student at Woxsen University in Hyderabad, India. I’m
 I watch Formula 1 from home and take photos around campus and on trips. My camera roll is mostly skies, and I drink enough coffee for it to count as a hobby.
 
 <p align="center">
-  <img src="./pit-wall.svg" width="100%" alt="Five increasingly desperate ‘final fix’ commits, followed by a pit-wall radio message: Box box, we have a merge conflict.">
+  <img src="./pit-wall.svg" width="660" alt="Five increasingly desperate ‘final fix’ commits, followed by a pit-wall radio message: Box box, we have a merge conflict.">
 </p>
 
 <p align="center">
